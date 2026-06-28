@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: ai-vision-ocr-backend
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: ALLOWED_ORIGINS
+        value: "*"
+      - key: ENVIRONMENT
+        value: production
+    autoDeploy: true

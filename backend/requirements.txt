@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+easyocr
+transformers
+opencv-python-headless
+pillow
+python-multipart
+requests
+python-dotenv
+pydantic
+pydantic-settings
+aiofiles
+numpy
+setuptools<70.0.0
+reportlab
